@@ -1,0 +1,36 @@
+{
+    "python.pythonPath": "/home/akash_verma/miniconda3/envs/devenv/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/home/akash_verma/miniconda3/envs/devenv/bin/flake8",
+    "python.linting.flake8Args": [
+        "--ignore=E24,W504,E501",
+        "--verbose"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.blackPath": "/home/akash_verma/miniconda3/envs/devenv/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length=88"
+    ],
+    // "python.sortImports.path": "/home/akash_verma/miniconda3/envs/devenv/bin/isort",
+    "python.sortImports.args": [
+        "--trailing-comma",
+        "--force-grid-wrap",
+        "0",
+        "--use-parentheses",
+        "--force-single-line-imports",
+        "--line-width",
+        "88",
+        "--multi-line",
+        "3",
+        "--float-to-top"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
